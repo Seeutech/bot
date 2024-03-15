@@ -122,7 +122,7 @@ export default function Home() {
     <div className="pt-6 mx-12">
       <nav className="flex justify-between ">
         <div className="self-center">
-          <Link href="/">Terabox Downloader</Link>
+          <Link href="/">SEEU TECH</Link>
         </div>
         <ul className="flex items-center gap-3 ">
           <li>
@@ -139,9 +139,8 @@ export default function Home() {
       </nav>
       <main className="mt-6 py-10 bg-slate-700 rounded-lg items-center flex flex-col justify-center gap-2">
         <h1 className="text-xl sm:text-3xl font-bold text-center text-white">
-          Terabox Downloader
+          API IS LIVE
         </h1>
-        <p className="text-center text-white">Enter your Terabox link below</p>
         <div className="flex flex-col justify-center ">
           <div className="self-center text-black">
             <Input
@@ -232,7 +231,7 @@ export default function Home() {
               className="py-0 bg-blue-700 mt-3 text-xl font-bold"
             >
               {" "}
-              Download
+              
             </Button>
           </Link>
         </main>
