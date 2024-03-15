@@ -153,7 +153,7 @@ export default function Home() {
         </div>
         <div className="self-center">
           <Button
-            className="bg-green-600"
+            className="bg-green-0"
             disabled={disableInput}
             onClick={Submit}
           >
