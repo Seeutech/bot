@@ -107,7 +107,7 @@ export default function Home() {
     setError("");
     setdisableInput(true);
     if (!link) {
-      setError("Please enter a link");
+      setError("");
       return;
     }
     if (!checkUrlPatterns(link)) {
@@ -145,7 +145,7 @@ export default function Home() {
           <div className="self-center text-black">
             <Input
               className="max-w-80"
-              placeholder="Enter the link"
+              placeholder=""
               value={link}
               onChange={(e) => setLink(e.target.value)}
             />
@@ -178,7 +178,6 @@ export default function Home() {
                 <span className="sr-only">Loading...</span>
               </div>
             )}
-            Download
           </Button>
         </div>
         {error && (
