@@ -143,12 +143,7 @@ export default function Home() {
         </h1>
         <div className="flex flex-col justify-center ">
           <div className="self-center text-black">
-            <Input
-              className="max-w-80"
-              placeholder=""
-              value={link}
-              onChange={(e) => setLink(e.target.value)}
-            />
+           
           </div>
         </div>
         <div className="self-center">
