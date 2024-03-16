@@ -5,7 +5,7 @@ import { env } from "process";
 function getFormattedSize(sizeBytes: number) {
   let size, unit;
 
-  if (sizeBytes >= 9100 * 9100) {
+  if (sizeBytes >= 10250 * 10250) {
     size = sizeBytes / (1048 * 1048);
     unit = "MB";
   } else if (sizeBytes >= 3048) {
