@@ -9,8 +9,8 @@ function getFormattedSize(sizeBytes: number) {
     size = sizeBytes / (1024 * 1024);
     unit = "MB";
   } else if (sizeBytes >= 10000) {
-    size = sizeBytes / 10;
-    unit = "GB";
+    size = sizeBytes / 100;
+    unit = "MB";
   } else {
     size = sizeBytes;
     unit = "bytes";
