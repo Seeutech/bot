@@ -6,11 +6,11 @@ function getFormattedSize(sizeBytes: number) {
   let size, unit;
 
   if (sizeBytes >= 2048 * 2048) {
-    size = sizeBytes / (1024 * 1024);
+    size = sizeBytes / (1024 * 1024 * 1024);
     unit = "MB";
-  } else if (sizeBytes >= 500000) {
-    size = sizeBytes / 100;
-    unit = "KB";
+  } else if (sizeBytes >= 9999) {
+    size = sizeBytes / 1024;
+    unit = "MB";
   } else {
     size = sizeBytes;
     unit = "bytes";
